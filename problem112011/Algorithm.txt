@@ -1,0 +1,16 @@
+Input: 2 given angles and the time of iteration
+Output: the angles of the triangle
+
+While (the time of iteration > 0 )
+{
+1.	Initialize a triangle with two given angles.
+a.	edge BC of triangle ABC be fixed on x-axis 
+b.	let the length of BC = 1
+2.	Define the bisector edge	as the distance between a vertex point 
+and the midpoint of opposite edge.
+3.	initialize the movingLength as the tenth of the shortest bisector edge.
+4.	move each vertex inward to the interior of the triangle along the bisector 
+in the distance of movingLength
+5.	initialize a new triangle with the new angles after moving 
+}
+
